@@ -369,7 +369,9 @@ fixed_time_list = fix_time()
 
 
 #print uva,uvb
-#plot_variable(altitude[:351],pres[:351], 'Altitude', 'Pressure')
+#plot_variable(altitude[:351],pres[:351], 'Altitude', 'Pressure')  
+
+#sensor stopped working (loose SDA connection) so truncated the list
 
 #plot_all(fixed_time_list, 'Time')
 #plot_all(number, 'Time')
